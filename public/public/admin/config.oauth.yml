@@ -1,0 +1,7 @@
+backend:
+  name: git-gateway
+  repo: norniq/public-hugo
+  branch: main
+  auth:
+    redirect_uri: https://vionor.dk/admin/
+    client_id: Ov23lioXK1RnCKDUUGsm
