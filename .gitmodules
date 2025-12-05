@@ -1,0 +1,3 @@
+[submodule "vionor-site/themes/PaperMod"]
+	path = vionor-site/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod
