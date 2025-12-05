@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: norniq/vionor-site             # <-- this will be your new GitHub repo
+  repo: norniq/public-hugo             # <-- this will be your new GitHub repo
   branch: main
   auth:
     redirect_uri: https://vionor.dk/admin/

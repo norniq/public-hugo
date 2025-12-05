@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: norniq/public-hugo             # <-- this will be your new GitHub repo
+  branch: main
+  auth:
+    redirect_uri: https://vionor.dk/admin/
+    client_id: Ov23lioXK1RnCKDUUGsm     # fill after step 10
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+
+      - label: "Forside"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - label: "Om"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - label: "Services"
+        name: "services"
+        file: "content/services/_index.md"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - label: "Kontakt"
+        name: "contact"
+        file: "content/contact/_index.md"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
