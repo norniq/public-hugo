@@ -1,0 +1,25 @@
+baseURL = 'https://vionor.dk/'
+languageCode = 'da-dk'
+title = 'Vionor Consulting'
+theme = 'PaperMod'
+
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "Om"
+  url = "/about/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "services"
+  name = "Services"
+  url = "/services/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "contact"
+  name = "Kontakt"
+  url = "/contact/"
+  weight = 30
+
