@@ -1,0 +1,7 @@
+baseURL = 'https://vionor.dk/'
+languageCode = 'da-dk'
+title = 'Vionor Consulting'
+theme = 'hugoplate'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
