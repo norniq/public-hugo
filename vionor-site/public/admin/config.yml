@@ -3,7 +3,7 @@ backend:
   repo: norniq/public-hugo             # <-- this will be your new GitHub repo
   branch: main
   auth:
-    redirect_uri: https://vionor.dk/admin/
+    redirect_uri: https://api.netlify.com/auth/done
     client_id: Ov23lioXK1RnCKDUUGsm     # fill after step 10
 
 media_folder: "static/uploads"

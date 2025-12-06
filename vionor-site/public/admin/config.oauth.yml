@@ -1,0 +1,5 @@
+backend:
+  name: github
+  auth:
+    client_id: Ov23lioXK1RnCKDUUGsm
+    redirect_uri: https://vionor.dk/admin/
